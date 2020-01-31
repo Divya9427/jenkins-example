@@ -13,8 +13,8 @@ pipeline {
         
            stage('SonarQube analysis') {
       steps {
-        withSonarQubeEnv('SonarQube Scanner') {
-          sh 'sonar-scanner'
+        withSonarQubeEnv('sonar') {
+          sh 'mvn clean package sonar:sonar'
         }
       }
     }

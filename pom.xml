@@ -58,14 +58,14 @@
     <repositories>
         <repository>
             <id>myMavenRepo.read</id>
-            <url>http://34.66.3.16:8081/repository/samplerepo/</url>
+            <url>http://35.226.221.154:8081/repository/samplerepo/</url>
         </repository>
     </repositories>
 
     <distributionManagement>
         <repository>
             <id>myMavenRepo.write</id>
-            <url>http://34.66.3.16:8081/repository/samplerepo/</url>
+            <url>http://35.226.221.154:8081/repository/samplerepo/</url>
         </repository>
     </distributionManagement>
 

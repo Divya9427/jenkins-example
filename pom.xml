@@ -57,21 +57,17 @@
             <artifactId>junit-platform-runner</artifactId>
             <version>${junit.platform.version}</version>
         </dependency>
-
-    </dependencies>
-
-    <repositories>
-        <repository>
-            <id>myMavenRepo.read</id>
-            <url>http://35.226.221.154:8081/repository/samplerepo/</url>
-        </repository>
-    </repositories>
-
-    <distributionManagement>
-        <repository>
-            <id>myMavenRepo.write</id>
-            <url>http://35.226.221.154:8081/repository/samplerepo/</url>
-        </repository>
-    </distributionManagement>
-
+</dependencies>
+         <distributionManagement>
+  <repository>
+   <id>nexus</id>
+   <name>samplerepo</name>
+   <url>http://35.223.58.148:8081/repository/samplerepo/</url>
+    <id>nexus</id>
+   <name>samplesnapshot</name>
+   <url>http://35.223.58.148:8081/repository/samplesnapshot/</url>
+  </snapshotRepository>
+  </repository>
+  <snapshotRepository>
+ </distributionManagement>
 </project>

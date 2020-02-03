@@ -58,16 +58,18 @@
             <version>${junit.platform.version}</version>
         </dependency>
 </dependencies>
-         <distributionManagement>
-  <repository>
-   <id>nexus</id>
-   <name>samplerepo</name>
-   <url>http://35.223.58.148:8081/repository/samplerepo/</url>
-    <id>nexus</id>
-   <name>samplesnapshot</name>
-   <url>http://35.223.58.148:8081/repository/samplesnapshot/</url>
-  </snapshotRepository>
-  </repository>
-  <snapshotRepository>
+      
+           <repositories>
+        <repository>
+            <id>nexus</id>
+            <url>http://35.223.58.148:8081/repository/samplerepo/</url>
+        </repository>
+    </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>nexus</id>
+            <url>http://35.223.58.148:8081/repository/samplesnapshot/</url>
+        </repository>
  </distributionManagement>
 </project>

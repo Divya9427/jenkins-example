@@ -30,7 +30,7 @@
                   <plugin>
                         <groupId>org.sonarsource.scanner.maven</groupId>
                           <artifactId>sonar-maven-plugin</artifactId>
-                            <version>4.2.0.1873</version>
+                            <version>3.0.1</version>
                            </plugin>
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
